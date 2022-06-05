@@ -1,0 +1,192 @@
+.nav-wraper .navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #fff;
+  z-index: 9999;
+}
+
+.nav-wraper .navbar .navbar-toggler.collapsed,
+.nav-wraper .navbar .navbar-toggler:focus {
+  border: none;
+  outline: none;
+}
+
+.nav-wraper .navbar span {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  line-height: 3.8rem;
+}
+
+.nav-wraper .navbar .navbar-toggler-icon {
+  z-index: 999;
+  color: red;
+  font-size: 2.4rem;
+}
+
+.nav-wraper .navbar .navbar-brand {
+  color: #111;
+  font-size: 2.5rem;
+  font-weight: 600;
+  letter-spacing: 0.4rem;
+}
+
+.nav-wraper .navbar .navbar-nav .nav-item .nav-link {
+  text-align: center;
+  color: #111;
+  font-size: 2rem;
+  padding-right: 2rem;
+  cursor: pointer;
+  position: relative;
+  border-bottom: 0.2rem solid transparent;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  letter-spacing: 0.3rem;
+}
+
+.nav-wraper .navbar .navbar-nav .nav-item .nav-link:hover {
+  border-bottom: 0.2rem solid blue;
+  color: blue;
+}
+
+.nav-wraper .form {
+  border: 0.2rem solid #f8f8f2;
+  padding: 0 0.5rem;
+  border-radius: 3rem;
+  -webkit-border-radius: 3rem;
+  -moz-border-radius: 3rem;
+  -ms-border-radius: 3rem;
+  -o-border-radius: 3rem;
+  background: #fff;
+}
+
+.nav-wraper .form button {
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+  font-size: 1.2rem;
+  background-color: #fff;
+  color: #fff;
+  outline: none;
+  border: none;
+  width: 5rem;
+  height: 3rem;
+}
+
+.nav-wraper .form .search-icon {
+  font-size: 2rem;
+  color: #b7aeae9c;
+  margin-right: 0.5rem;
+}
+
+.nav-wraper .input-search {
+  padding: 0.8rem 1rem;
+  outline: none;
+  border: none;
+  font-size: 1.4rem;
+  background: none;
+}
+
+.nav-wraper .modal .modal-content {
+  width: 60rem !important;
+  background: #eee;
+}
+
+.nav-wraper .modal .modal-content .modal-body {
+  padding: 0;
+  width: 60rem;
+  height: 40rem;
+  overflow: hidden;
+  background-image: url(../images/s2.png);
+  background-size: contain;
+}
+
+.nav-wraper .modal .modal-content .modal-body .signup-form {
+  padding: 3rem 4rem;
+}
+
+.nav-wraper .modal .modal-content .modal-body .signup-form span {
+  cursor: pointer;
+}
+
+.nav-wraper .modal .modal-content .modal-body .signup-form h4 {
+  margin-top: 4rem;
+}
+
+.nav-wraper .modal .modal-content .modal-body .input-password {
+  background-color: red;
+  height: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-wraper .modal .modal-content .modal-body .input-password input {
+  height: 4rem;
+  width: 90%;
+  outline: none;
+  border: none;
+  border-bottom: 0.3rem solid palevioletred;
+  padding: 0 1rem;
+}
+
+.nav-wraper .modal .modal-content .modal-body .input-password .show-btn {
+  height: 100%;
+  width: 5rem;
+  line-height: 3rem;
+}
+
+.nav-wraper .modal .modal-content .modal-body .signup-btn {
+  border: none;
+  width: 100%;
+  background: palevioletred;
+  padding: 0.5rem 0;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  -webkit-box-shadow: 0 0 1rem palevioletred;
+          box-shadow: 0 0 1rem palevioletred;
+  margin-top: 5rem;
+}
+
+.nav-wraper .modal .modal-content .modal-body input {
+  -webkit-box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+  outline: none;
+  background-color: #eee;
+  border-bottom: 0.3rem solid palevioletred;
+  margin: 2rem 0;
+}
+
+.nav-wraper .modal .modal-content .login {
+  width: 100%;
+  height: 100vh;
+}
+
+.nav-wraper .modal .modal-content .login .details {
+  padding: 3rem 0 0 2rem;
+  text-transform: capitalize;
+}
+
+.nav-wraper .modal .modal-content .login .details h1 {
+  color: inherit;
+  margin-bottom: 1.5rem;
+}
+/*# sourceMappingURL=navbar.css.map */

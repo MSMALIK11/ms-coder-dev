@@ -1,0 +1,70 @@
+.friends-wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1rem;
+  gap: 2rem;
+  width: 100%;
+}
+
+.friends-wraper .bi {
+  font-size: 2.2rem;
+}
+
+.friends-wraper .friend {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.7rem;
+  position: relative;
+}
+
+.friends-wraper .friend button {
+  position: absolute;
+  right: 0;
+  background: transparent;
+  border: none;
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+  color: blue;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.friends-wraper .friend .active {
+  background-color: #eee;
+  color: gray;
+  padding: 0.5rem 0.7rem;
+}
+
+.friends-wraper .friend .friend-image {
+  border: 2px solid green;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.friends-wraper .friend .frien-name {
+  font-size: 1.5rem;
+}
+/*# sourceMappingURL=friend.css.map */

@@ -1,0 +1,35 @@
+.r-post h1 {
+  text-align: center;
+  letter-spacing: 0.2rem;
+}
+
+.r-post img {
+  width: 13rem;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+
+.r-post h3 {
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+}
+
+.r-post p {
+  font-size: 1.4em;
+}
+
+@media (max-width: 992px) {
+  .r-post h3 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .r-post h3 {
+    font-size: 1.5rem;
+  }
+}
+/*# sourceMappingURL=recentpost.css.map */

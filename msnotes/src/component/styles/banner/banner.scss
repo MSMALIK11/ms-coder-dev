@@ -1,0 +1,59 @@
+@import '../variables.scss';
+
+.banner{
+    position:relative;
+    width: 100vw;
+    height:60rem;
+background-image: url(../../images/bg-2.jpg);
+background-repeat: no-repeat;
+
+background-size: cover;
+
+background-origin: content-box;
+background-attachment: fixed;
+
+& .banner-wraper{
+    width: 70vw;
+    height:25rem;
+    background-color: rgba(255,255,255,0.1);
+    backdrop-filter: blur(30px);
+    position:absolute;
+    top:10%;
+    left:50%;
+    transform: translate(-50%,50%);
+    -webkit-transform: translate(-50%,50%);
+    -moz-transform: translate(-50%,50%);
+    -ms-transform: translate(-50%,50%);
+    -o-transform: translate(-50%,50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    & h1{
+       text-align: center;
+       font-size: 7vw;
+ 
+    color: $white-color;
+    letter-spacing: 0.3rem;
+    // text-shadow: 1rem 2rem 0.4rem rgba(0,0,0,0.7);
+   
+
+    }
+}
+
+@media(max-width:768px){
+    .banner{
+        padding-top: 6rem;
+        height: 50rem;
+        h1{
+            font-size:6vw
+        }
+        .banner-wraper{
+            top:10;
+            height: 18rem;
+          
+        }
+        
+    }
+}

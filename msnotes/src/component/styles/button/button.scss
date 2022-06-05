@@ -1,0 +1,21 @@
+.custom-btn{
+  
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+margin-right: 2rem;
+background-color:#fff;
+border: none;
+outline: none;
+box-shadow:0 0 2rem rgba(0,0,0,0.2);
+
+& i{
+    font-size: 2.5rem;
+    color: #333;
+  
+}
+}

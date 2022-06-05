@@ -1,0 +1,8 @@
+.my-profile-post {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr 1fr;
+      grid-template-columns: 1fr 2fr 1fr;
+  gap: 2rem;
+}
+/*# sourceMappingURL=post.css.map */

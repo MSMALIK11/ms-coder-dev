@@ -1,0 +1,9 @@
+.video-wraper {
+  background: cornsilk;
+  height: 100vh;
+}
+
+.video-wraper .video-inner {
+  padding-top: 8rem;
+}
+/*# sourceMappingURL=videos.css.map */

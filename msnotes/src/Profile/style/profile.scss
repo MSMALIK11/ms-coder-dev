@@ -1,0 +1,43 @@
+.profile {
+  padding-top: 7rem;
+
+  .profile-wraper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 40rem;
+    background-image: url("../images/profile-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
+
+    .img {
+      width: 10rem;
+      height: 10rem;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      background-color: beige;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .author-name {
+      h1 {
+        color: #ffffff;
+        letter-spacing: 0.3125rem;
+        font-size: 3rem;
+      }
+      p {
+        color: gainsboro;
+      }
+    }
+    .bi {
+      font-size: 6rem;
+    }
+  }
+}
